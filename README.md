@@ -4,36 +4,54 @@ To install DeepFaceLab on Ubuntu, refer [here](README_Ubuntu.md)
 To install CentOS, refer [here](install_CentOS.md)
 
 ## Step 0: Preparing the system
-URL #1: https://www.tecmint.com/install-epel-repository-on-centos/  
-URL #2: https://computingforgeeks.com/how-to-install-epel-repository-on-rhel-8-centos-8/
 
-Install EPEL which is a repo of extra packages for CentOS
+###     CentOS
+     URL #1: https://www.tecmint.com/install-epel-repository-on-centos/  
+     URL #2: https://computingforgeeks.com/how-to-install-epel-repository-on-rhel-8-centos-8/
+
+     Install EPEL which is a repo of extra packages for CentOS
 ```sh
-sudo dnf -y install epel-release
-sudo dnf config-manager --set-enabled PowerTools
+    sudo dnf -y install epel-release
+    sudo dnf config-manager --set-enabled PowerTools
 ```
 
-Confirm EPEL installation
+    Confirm EPEL installation
 ```sh
-sudo dnf repolist epel
+    sudo dnf repolist epel
 ```
+###     Ubuntu
+    Relax.
 
 ## Step 1: Update the OS
+
+###     CentOS
 URL #3: https://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/#C4  
 ```sh
 sudo dnf check-update
 sudo dnf -y update
-```
+```  
 
+###     Ubuntu
+```sh
+sudo apt update
+sudo apt dist-upgrade
+```
 
 ## Step 2: Install Anaconda
 URL #4: https://www.anaconda.com/distribution/#linux  
 URL #5: https://docs.anaconda.com/anaconda/install/linux/
 
 ###     Step 2-1: Prerequisites
-Install the following packages
+Install the following packages  
+
+####     CentOS
 ```sh
 sudo dnf -y install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
+```
+
+####     Ubuntu
+```sh
+sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 ```
 
 ###     Step 2-2: Download Python 3.7 version (at the time of writing: 03/13/2020)
