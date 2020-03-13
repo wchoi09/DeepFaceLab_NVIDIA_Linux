@@ -114,4 +114,4 @@ Copy both pretrain_CelebA and Pretrain_Quick96 to the directory DeepFaceLab_Linu
 
 
 ## Step 5: Navigate to the scripts directory and begin using DeepFaceLab_Linux
-
+I'll be updating on "How to use" soon!  
