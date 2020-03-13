@@ -50,8 +50,8 @@ Install the following packages
 ```
 
 ####        Ubuntu
-    ```sh
-    sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+```sh
+        sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 ```
 
 ###    Step 2-2: Download Python 3.7 version (at the time of writing: 03/13/2020)
