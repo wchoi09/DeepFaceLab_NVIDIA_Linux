@@ -19,7 +19,7 @@ To install CentOS, refer [here](install_CentOS.md)
 ```sh
     sudo dnf repolist epel
 ```
-###    Ubuntu
+###    Ubuntu
     Relax.
 
 ## Step 1: Update the OS
