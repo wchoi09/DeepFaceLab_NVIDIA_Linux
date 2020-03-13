@@ -3,8 +3,6 @@
 To install DeepFaceLab on Ubuntu, refer [here](README_Ubuntu.md)  
 To install CentOS, refer [here](install_CentOS.md)
 
-To install CentOS, refer [here](install_CentOS.md)
-
 ## Step 0: Preparing the system
 
 ###    CentOS
