@@ -1,6 +1,6 @@
 # Install DeepFaceLab on CentOS
 **Note:** This installation method uses Anaconda to install DFL on Centos 7/8  
-To install CentOS, refer [here] ()
+To install CentOS, refer [here](install_CentOS.md)
 
 ## Step 0: Preparing the system
 URL #1: https://www.tecmint.com/install-epel-repository-on-centos/  
