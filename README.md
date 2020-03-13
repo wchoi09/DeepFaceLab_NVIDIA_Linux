@@ -11,13 +11,13 @@ To install CentOS, refer [here](install_CentOS.md)
 
     Install EPEL which is a repo of extra packages for CentOS
 ```sh
-    sudo dnf -y install epel-release
-    sudo dnf config-manager --set-enabled PowerTools
+sudo dnf -y install epel-release
+sudo dnf config-manager --set-enabled PowerTools
 ```
 
     Confirm EPEL installation
 ```sh
-    sudo dnf repolist epel
+sudo dnf repolist epel
 ```
 ###    Ubuntu
     Relax.
@@ -27,14 +27,14 @@ To install CentOS, refer [here](install_CentOS.md)
 ###    CentOS
     URL #3: https://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/#C4  
 ```sh
-    sudo dnf check-update
-    sudo dnf -y update
+sudo dnf check-update
+sudo dnf -y update
 ```  
 
 ###    Ubuntu
 ```sh
-    sudo apt update
-    sudo apt dist-upgrade
+sudo apt update
+sudo apt dist-upgrade
 ```
 
 ## Step 2: Install Anaconda
@@ -46,12 +46,12 @@ Install the following packages
 
 ####        CentOS
 ```sh
-        sudo dnf -y install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
+sudo dnf -y install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
 ```
 
 ####        Ubuntu
 ```sh
-        sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 ```
 
 ###    Step 2-2: Download Python 3.7 version (at the time of writing: 03/13/2020)
