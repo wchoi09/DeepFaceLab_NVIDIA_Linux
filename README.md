@@ -104,7 +104,7 @@ python3 -m pip install tqdm, numpy, h5py, opencv-python, ffmpeg-python, scikit-i
 
 
 ## Step 4: Download CelebA Dataset
-URL #6: https://drive.google.com/drive/folders/17a9b9zmLdnAlItifcGSE9ixDIDAT3YxP
+URL #6: https://drive.google.com/drive/folders/17a9b9zmLdnAlItifcGSE9ixDIDAT3YxP  
 Download the latest NVIDIA build from the main repo for Windows  
 Extract the build and go into the _internal folder. 
 ```sh
