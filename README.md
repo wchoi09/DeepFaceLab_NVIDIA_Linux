@@ -17,7 +17,7 @@ sudo dnf repolist epel
 ```
 
 ## Step 1: Update the OS
-URL: https://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/#C4  
+URL #3: https://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/#C4  
 ```sh
 sudo dnf check-update
 sudo dnf -y update
@@ -25,8 +25,8 @@ sudo dnf -y update
 
 
 ## Step 2: Install Anaconda
-URL #3: https://www.anaconda.com/distribution/#linux  
-URL #4: https://docs.anaconda.com/anaconda/install/linux/
+URL #4: https://www.anaconda.com/distribution/#linux  
+URL #5: https://docs.anaconda.com/anaconda/install/linux/
 
 ### Step 2-1: Prerequisites
 Install the following packages
