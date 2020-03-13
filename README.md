@@ -28,13 +28,13 @@ sudo dnf -y update
 URL #4: https://www.anaconda.com/distribution/#linux  
 URL #5: https://docs.anaconda.com/anaconda/install/linux/
 
-### Step 2-1: Prerequisites
+###     Step 2-1: Prerequisites
 Install the following packages
 ```sh
 sudo dnf -y install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
 ```
 
-### Step 2-2: Download Python 3.7 version (at the time of writing: 03/13/2020)
+###     Step 2-2: Download Python 3.7 version (at the time of writing: 03/13/2020)
 Through the terminal, locate to the downloaded directory and enter the following to install Anaconda for Python 3.7:
 ```sh
 bash Anaconda3-2020.02-Linux-x86_64.sh
@@ -74,10 +74,10 @@ Install dependencies
 > ```sh
 > python3 -m pip install -r ./DeepFaceLab/requirements-cuda.txt  
 > ```
-> but we will install dependencies manually.  
+> but, we will install dependencies manually.  
 
-Install dependencies manually:
-Note the specified version for tensorflow-gpu
+To install dependencies manually:  
+    (Note the specified version for tensorflow-gpu)
 ```sh
 python3 -m pip install tqdm, numpy, h5py, opencv-python, ffmpeg-python, scikit-image, scipy, colorama, tensorflow-gpu==1.13.2
 ```
