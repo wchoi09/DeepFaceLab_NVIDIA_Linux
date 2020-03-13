@@ -41,16 +41,16 @@ To install CentOS, refer [here](install_CentOS.md)
 URL #4: https://www.anaconda.com/distribution/#linux  
 URL #5: https://docs.anaconda.com/anaconda/install/linux/
 
-###     Step 2-1: Prerequisites
+###    Step 2-1: Prerequisites
 Install the following packages  
 
-####    CentOS
+####        CentOS
 ```sh
-    sudo dnf -y install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
+        sudo dnf -y install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
 ```
 
-####    Ubuntu
-```sh
+####        Ubuntu
+    ```sh
     sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 ```
 
