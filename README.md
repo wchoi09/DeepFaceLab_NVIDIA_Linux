@@ -26,20 +26,7 @@ bash 1_Ubuntu_install_dependencies.sh
 URL #4: https://www.anaconda.com/distribution/#linux  
 URL #5: https://docs.anaconda.com/anaconda/install/linux/
 
-###     Step 2-1: Prerequisites
-Install the following packages  
-
-####    CentOS
-```sh
-    sudo dnf -y install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
-```
-
-####    Ubuntu
-```sh
-    sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
-```
-
-###    Step 2-2: Download Python 3.7 version (at the time of writing: 03/13/2020)
+**Note:** Download Python 3.7 version (at the time of writing: 03/13/2020)  
 Through the terminal, locate to the downloaded directory and enter the following to install Anaconda for Python 3.7:
 ```sh
 bash Anaconda3-2020.02-Linux-x86_64.sh
