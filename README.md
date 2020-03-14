@@ -2,39 +2,24 @@
 **Note:** This installation method uses Anaconda to install DFL on Centos 7/8 or Ubuntu 18.04  
 To install CentOS, refer [here](install_CentOS.md)
 
-## Step 0: Preparing the system
-
-###    CentOS
-    URL #1: https://www.tecmint.com/install-epel-repository-on-centos/  
-    URL #2: https://computingforgeeks.com/how-to-install-epel-repository-on-rhel-8-centos-8/
-
-    Install EPEL which is a repo of extra packages for CentOS
-```sh
-    sudo dnf -y install epel-release
-    sudo dnf config-manager --set-enabled PowerTools
-```
-
-    Confirm EPEL installation
-```sh
-    sudo dnf repolist epel
-```
-###    Ubuntu
-    Relax.
-
-## Step 1: Update the OS
-
-###    CentOS
-    URL #3: https://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/#C4  
-```sh
-    sudo dnf check-update
-    sudo dnf -y update
-```  
-
-###    Ubuntu
-```sh
-    sudo apt update
-    sudo apt dist-upgrade
-```
+## Step 0: Preparation
+Navigate to <b>`downloads`</b> directory and run:
+<details>
+    <summary><h3>CentOS</h3></summary>
+    ```sh
+    cd downloads
+    bash 1_CentOS_install_dependencies.sh
+    ```
+    </details>
+    
+<details>
+    <summary><h3>Ubuntu</h3></summary>
+    ```sh
+    cd downloads
+    bash 1_Ubuntu_install_dependencies.sh
+    ```
+    </details>
+    
 
 ## Step 2: Install Anaconda
 URL #4: https://www.anaconda.com/distribution/#linux  
