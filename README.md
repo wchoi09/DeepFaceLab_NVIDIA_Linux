@@ -22,7 +22,7 @@ bash 1_Ubuntu_install_dependencies.sh
 </details>
     
 
-## Step 2: Install Anaconda
+## Step 1: Install Anaconda
 URL #4: https://www.anaconda.com/distribution/#linux  
 URL #5: https://docs.anaconda.com/anaconda/install/linux/
 
@@ -42,7 +42,7 @@ source ~/.bashrc
 ```
 
 
-## Step 3: Install DeepFaceLab
+## Step 2: Install DeepFaceLab (STOP HERE! CHANGES ARE MADE. COMING SOON)
 Create the DeepFaceLab environment with the following libraries.  
 Enter the following in the terminal:  
 ```sh
@@ -75,7 +75,7 @@ python3 -m pip install tqdm, numpy, h5py, opencv-python, ffmpeg-python, scikit-i
 ```
 
 
-## Step 4: Download CelebA Dataset
+## Step 3: Download CelebA Dataset
 URL #6: https://drive.google.com/drive/folders/17a9b9zmLdnAlItifcGSE9ixDIDAT3YxP  
 Download the latest NVIDIA build from the main repo for Windows  
 Extract the build and go into the _internal folder. 
