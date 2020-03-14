@@ -5,7 +5,7 @@ To install CentOS, refer [here](install_CentOS.md)
 ## Step 0: Preparation
 Navigate to <b>`downloads`</b> directory and run:
 
-<details><summary><h3>CentOS</h3></summary>
+<details><summary>CentOS</summary>
 
 ```sh
 cd downloads
@@ -13,7 +13,7 @@ bash 1_CentOS_install_dependencies.sh
 ```
 </details>
     
-<details><summary><h3>Ubuntu</h3></summary>
+<details><summary>Ubuntu</summary>
 
 ```sh
 cd downloads
