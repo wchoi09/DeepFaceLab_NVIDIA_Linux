@@ -1,6 +1,5 @@
 # Install DeepFaceLab on CentOS
 **Note:** This installation method uses Anaconda to install DFL on Centos 7/8 or Ubuntu 18.04  
-To install DeepFaceLab on Ubuntu, refer [here](README_Ubuntu.md)  
 To install CentOS, refer [here](install_CentOS.md)
 
 ## Step 0: Preparing the system
