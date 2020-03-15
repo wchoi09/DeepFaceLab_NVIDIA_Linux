@@ -5,7 +5,7 @@ $DFL_PYTHON "$DFL_ROOT/main.py" videoed video-from-sequence \
     --input-dir "$DFL_WORKSPACE/data_dst/merged" \
     --output-file "$DFL_WORKSPACE/result.mp4" \
     --reference-file "$DFL_WORKSPACE/data_dst.*" \
-    --include-audio
+    --include-audio \
     --lossless
 
 $DFL_PYTHON "$DFL_ROOT/main.py" videoed video-from-sequence \
