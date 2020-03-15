@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 source env.sh
+
 rm -rf "$DFL_WORKSPACE"
 mkdir -p "$DFL_WORKSPACE"
 mkdir -p "$DFL_WORKSPACE/data_src/aligned"
