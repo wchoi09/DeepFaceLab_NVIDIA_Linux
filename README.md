@@ -23,7 +23,7 @@ cd DeepFaceLab_NVIDIA_Linux
 ```
 
 ### Step #0-1: Install NVIDIA driver and Dependencies
-Navigate to <b>`DeepFaceLab_NVIDIA_Linux`</b> directory and run:
+Navigate to <b>`DeepFaceLab_NVIDIA_Linux/install_script`</b> directory and run:
 <ol type="a">
     <li><b>CentOS:</b><pre>bash 1_CentOS_install_dependencies.sh</pre>  
     <li><b>Ubuntu:</b><pre>bash 1_Ubuntu_install_dependencies.sh</pre>
