@@ -5,7 +5,7 @@ $DFL_PYTHON "$DFL_ROOT/main.py" merge \
     --input-dir "$DFL_WORKSPACE/data_dst" \
     --output-dir "$DFL_WORKSPACE/data_dst/merged" \
     --output-mask-dir "$DFL_WORKSPACE/data_dst/merged_mask" \
-    --aligned-dir "$DFL_WORKSPACE/data_st/aligned" \
+    --aligned-dir "$DFL_WORKSPACE/data_dst/aligned" \
     --model-dir "$DFL_WORKSPACE/model" \
     --model SAEHD
 
