@@ -6,4 +6,5 @@ ffmpeg-python
 scikit-image
 scipy
 colorama
+labelme=4.2.9
 tensorflow-gpu==1.13.2
