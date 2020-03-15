@@ -3,6 +3,7 @@
 To install CentOS, refer [here](install_CentOS.md)
 
 ## Step 0: Preparation
+Installing NVIDIA drivers and necessary packages.  
 Navigate to <b>`downloads`</b> directory and run:
 
 <details><summary>CentOS</summary>
@@ -42,7 +43,7 @@ source ~/.bashrc
 ```
 
 
-## Step 2: Install DeepFaceLab (STOP HERE! CHANGES ARE MADE. COMING SOON)
+## Step 2: Install DeepFaceLab
 Create the DeepFaceLab environment with the following libraries.  
 Enter the following in the terminal:  
 ```sh
