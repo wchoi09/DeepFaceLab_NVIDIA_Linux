@@ -6,6 +6,6 @@ $DFL_PYTHON "$DFL_ROOT/main.py" extract \
     --output-dir "$DFL_WORKSPACE/data_dst/aligned" \
     --detector manual \
     --output-debug \
-    --manual-output-debug-fix
+    --manual-output-debug-fix \
     --face-type whole_face
 
