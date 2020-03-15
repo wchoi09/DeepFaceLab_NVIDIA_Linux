@@ -9,3 +9,5 @@ sudo apt -y install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 l
 
 # Install DeepFaceLab Dependencies
 sudo apt -y install ffmpeg cmake build-essential git
+
+# Install the latest NVIDIA Driver (Long Lived Branch)
