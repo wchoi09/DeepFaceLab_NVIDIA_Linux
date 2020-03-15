@@ -2,6 +2,6 @@
 source env.sh
 
 $DFL_PYTHON "$DFL_ROOT/main.py" util \
-    --input-dir "$DFL_WORKSPACE/dta_src/aligned" \
+    --input-dir "$DFL_WORKSPACE/data_src/aligned" \
     --save-faceset-metadata
 
