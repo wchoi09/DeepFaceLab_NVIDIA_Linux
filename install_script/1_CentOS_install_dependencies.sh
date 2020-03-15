@@ -16,5 +16,5 @@ sudo dnf -y install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib me
 
 # Install DeepFaceLab Dependencies
 sudo dnf -y install ffmpeg gcc gcc-c++ kernel-devel
-# sudo dnf -y groupinstall "Development Tools" will install everything above
+# sudo dnf -y groupinstall "Development Tools"
 sudo dnf -y install git
