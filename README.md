@@ -54,24 +54,14 @@ Activate the environment
 conda activate deepfacelab
 ```
 
-Clone the repo
+_Navigate to DeepFaceLab_Linux directory_
 ```sh
-git clone https://github.com/lbfs/DeepFaceLab_Linux.git
 cd DeepFaceLab_Linux
-git clone https://github.com/iperov/DeepFaceLab.git
 ```
 
-Install dependencies
-> Originally, you could install by:
-> ```sh
-> python3 -m pip install -r ./DeepFaceLab/requirements-cuda.txt  
-> ```
-> but, we will install dependencies manually.  
-
-To install dependencies manually:  
-    (Note the specified version for tensorflow-gpu)
+Install Python Dependencies
 ```sh
-python3 -m pip install tqdm, numpy, h5py, opencv-python, ffmpeg-python, scikit-image, scipy, colorama, tensorflow-gpu==1.13.2
+python3 -m pip install -r ./requirements-cuda.txt  
 ```
 
 
