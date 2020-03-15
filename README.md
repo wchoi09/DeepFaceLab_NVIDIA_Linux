@@ -87,7 +87,8 @@ Extract the build and go into the `_internal` folder.
 7z x DeepFaceLab_NVIDIA_build_XX_XX_XXX.exe
 ```
 
-Copy both `pretrain_CelebA` and `pretrain_Quick96` to the directory `DeepFaceLab_NVIDIA_Linux/_internal/`  
+Once the build has been extracted, there will be `_internal` directory.  
+From it, copy both `pretrain_CelebA` and `pretrain_Quick96` to the directory `DeepFaceLab_NVIDIA_Linux/_internal/`  
 
 
 ## Step #4: Navigate to the scripts directory and begin using DeepFaceLab
