@@ -43,7 +43,9 @@ source ~/.bashrc
 ```
 
 
-## Step 2: Install DeepFaceLab
+## Step 2: Install DeepFaceLab_NVIDIA
+Download .EXE from the official git repository and unzip.  
+
 Create the DeepFaceLab environment with the following libraries.  
 Enter the following in the terminal:  
 ```sh
