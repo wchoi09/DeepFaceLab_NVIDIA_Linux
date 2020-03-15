@@ -4,12 +4,12 @@ To install CentOS, refer [here](install_CentOS.md)
 
 ## Step 0: Preparation
 Installing NVIDIA drivers and necessary packages.  
-Navigate to <b>`downloads`</b> directory and run:
+Navigate to downloaded <b>`DeepFaceLab_Linux`</b> directory and run:
 
 <details><summary>CentOS</summary>
 
 ```sh
-cd downloads
+cd DeepFaceLab_Linux
 bash 1_CentOS_install_dependencies.sh
 ```
 </details>
@@ -17,7 +17,7 @@ bash 1_CentOS_install_dependencies.sh
 <details><summary>Ubuntu</summary>
 
 ```sh
-cd downloads
+cd DeepFaceLab_Linux
 bash 1_Ubuntu_install_dependencies.sh
 ```
 </details>
