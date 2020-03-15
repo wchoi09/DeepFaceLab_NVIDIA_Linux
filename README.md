@@ -75,5 +75,5 @@ Extract the build and go into the _internal folder.
 Copy both pretrain_CelebA and Pretrain_Quick96 to the directory DeepFaceLab_Linux/
 
 
-## Step 5: Navigate to the scripts directory and begin using DeepFaceLab_Linux
+## Step 4: Navigate to the scripts directory and begin using DeepFaceLab_Linux
 
