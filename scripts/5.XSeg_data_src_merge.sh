@@ -2,5 +2,5 @@
 source env.sh
 
 $DFL_PYTHON "$DFL_ROOT/main.py" xseg merge \
-    --input-dir "$DFL_WORKSPACE/data_rc/aligned"
+    --input-dir "$DFL_WORKSPACE/data_src/aligned"
 
