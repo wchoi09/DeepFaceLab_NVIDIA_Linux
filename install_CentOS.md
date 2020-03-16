@@ -8,12 +8,12 @@ URL #2: https://www.centos.org/download/
 ## Step 2: Make a bootable device
 Format the USB device
 
-### Step 2-1: On Windows
+### a. On Windows
 URL #3: https://wiki.centos.org/HowTos/InstallFromUSBkey  
 As stated above, applications "unetbootin, multibootusb and universal usb installler" does not work;  
 instead, use "Rufus[does not work correctly if the wrong options are chosen], Fedora LiveUSB Creator, Win32 Disk Imager, Rawrite32, dd for Windows"  
 
-### Step 2-2: On MacOS
+### b. On MacOS
 URL #4: https://docs.centos.org/en-US/8-docs/standard-install/assembly_preparing-for-your-installation/  
 in the terminal, type:  
 <pre>
@@ -21,7 +21,7 @@ sudo dd if=<b>/path/to/image.iso</b> of=/dev/rdisk<b>#</b> bs=4m
 </pre>
 replace "/path/to/image.iso" with the actual directory, and # with the actual drive number
 
-### Step 2-3: On Linux
+### c. On Linux
 in the terminal, type:
 <pre>
 sudo dd if=<b>/path/to/image.iso</b> of=/dev/<b>device</b> bs=4m
