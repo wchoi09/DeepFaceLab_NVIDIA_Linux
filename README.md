@@ -82,7 +82,7 @@ git clone https://github.com/iperov/DeepFaceLab.git
 
 Download the latest NVIDIA build(.EXE) from the main repo for Windows  
 To download, refer to the Google Drive link provided in here: https://github.com/iperov/DeepFaceLab/  
-Extract the build and go into the `_internal` folder.  
+Extract the build.  
 ```sh
 7z x DeepFaceLab_NVIDIA_build_XX_XX_XXX.exe
 ```
