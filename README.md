@@ -33,7 +33,7 @@ Navigate to <b>`DeepFaceLab_NVIDIA_Linux/install_script`</b> directory and run:
     <li><b>Ubuntu:</b><pre>bash 1_Ubuntu_install_dependencies.sh</pre>
 </ol>
 
-## Step #1: Install DFL
+## Step #1: Setup Environment  
 <ol type="a">
     <li><details><summary><b>on Anaconda:</b></summary>  
           Install Anaconda  
@@ -73,66 +73,7 @@ conda activate deepfacelab
 Install python, cudnn, cudatoolkit  
 </ol></details>
 
-Install Python Dependencies
-```sh
-python3 -m pip install -r ./DeepFaceLab/requirements-cuda.txt  
-```
-
-Delete the already existing DeepFaceLab directory, and  
-Clone DeepFaceLab from the main repository to the `_internal` directory  
-```sh
-sudo rm -rf DeepFaceLab
-git clone https://github.com/iperov/DeepFaceLab.git
-```
-
-
-
-
-
-
-
-
-
-
-
-## Step #1: Install Anaconda
-URL #4: https://www.anaconda.com/distribution/#linux  
-URL #5: https://docs.anaconda.com/anaconda/install/linux/
-
-**Note:** Download Python 3.7 version (at the time of writing: 03/16/2020)  
-Through the terminal, locate to Anaconda download destination and run the following:  
-```sh
-bash Anaconda3-2020.02-Linux-x86_64.sh
-```
-
-The installer prompts "In order to continue the installation process, please review the license agreement."  
-Click Enter to view license terms.  
-Scroll to the bottom of the license terms and enter "Yes" to agree.  
-Accept the default install location.  
-Type "yes" to the prompt, "Do you wish the installer to initialize Anaconda3 by running conda init?"  
-Close and open your terminal window for the installation to take effect, or you can enter the command:  
-```sh
-source ~/.bashrc
-```
-
-
 ## Step #2: Install DeepFaceLab_NVIDIA
-Create the DeepFaceLab environment with the following libraries.  
-Enter the following in the terminal:  
-```bash
-conda create -n deepfacelab -c main python=3.6.8 cudnn=7.6.5 cudatoolkit=10.0.130
-```
-
-Activate the environment  
-```bash
-conda activate deepfacelab
-```
-
-Navigate to `_internal` directory in `DeepFaceLab_NVIDIA_Linux`  
-```sh
-cd DeepFaceLab_NVIDIA_Linux/_internal
-```
-
 Install Python Dependencies
 ```sh
 python3 -m pip install -r ./DeepFaceLab/requirements-cuda.txt  
@@ -144,6 +85,7 @@ Clone DeepFaceLab from the main repository to the `_internal` directory
 sudo rm -rf DeepFaceLab
 git clone https://github.com/iperov/DeepFaceLab.git
 ```
+
 
 ## Step #3: Download CelebA Dataset and Quick96 Model
 
