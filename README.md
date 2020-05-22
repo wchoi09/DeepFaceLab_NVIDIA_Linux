@@ -35,7 +35,8 @@ Navigate to <b>`DeepFaceLab_NVIDIA_Linux/install_script`</b> directory and run:
 
 ## Step #1: Install DFL
 <ol type="a">
-    <li><b>on Anaconda:</b>
+    <li><b>on Anaconda:</b>  
+        Install Anaconda  
         URL #4: https://www.anaconda.com/distribution/#linux  
 URL #5: https://docs.anaconda.com/anaconda/install/linux/
 
@@ -54,8 +55,32 @@ Close and open your terminal window for the installation to take effect, or you 
 ```sh
 source ~/.bashrc
 ```
-    <li><b>on system:</b>
+Create Anaconda Environment  
+Create the DeepFaceLab environment with the following libraries.  
+Enter the following in the terminal:  
+```bash
+conda create -n deepfacelab -c main python=3.6.8 cudnn=7.6.5 cudatoolkit=10.0.130
+```
+
+Activate the environment  
+```bash
+conda activate deepfacelab
+```
+<li><b>on system:</b>  
+    Install python, cudnn, cudatoolkit  
 </ol>
+
+Install Python Dependencies
+```sh
+python3 -m pip install -r ./DeepFaceLab/requirements-cuda.txt  
+```
+
+Delete the already existing DeepFaceLab directory, and  
+Clone DeepFaceLab from the main repository to the `_internal` directory  
+```sh
+sudo rm -rf DeepFaceLab
+git clone https://github.com/iperov/DeepFaceLab.git
+```
 
 
 
