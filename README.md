@@ -1,12 +1,11 @@
-# Install DeepFaceLab
-**Note:** This method installs DFL on Centos 7/8 or Ubuntu 18.04 and provides an option to use Anaconda  
-This installation method uses Anaconda to install DFL on Centos 7/8 or Ubuntu 18.04  
-To install CentOS, refer [here](install_CentOS.md)
-To install Ubuntu, [coming soon]
-
+# DeepFaceLab Guide for Linux Users
 **Prerequisite:** You need CUDA enabled GPU.  
 
-**Note:** The directory structure is important.  
+**Note:** This method installs DFL on Centos 7/8 or Ubuntu 18.04 and provides an option to use Anaconda  
+To install CentOS, refer [here](install_CentOS.md)
+To install Ubuntu, [coming soon]  
+
+The directory structure is important.  
 This is how the project tree will look like:  
 ```bash
 DeepFaceLab_NVIDIA_Linux
