@@ -40,7 +40,7 @@ Navigate to <b>`DeepFaceLab_NVIDIA_Linux/install_script`</b> directory and run:
 URL #4: https://www.anaconda.com/distribution/#linux  
 URL #5: https://docs.anaconda.com/anaconda/install/linux/  
 
-**Note:** Download Python 3.7 version (at the time of writing: 03/16/2020)  
+**Note:** Download Python 3.7 version (at the time of writing: 05/22/2020)  
 Through the terminal, locate to Anaconda download destination and run the following:  
 ```sh
 bash Anaconda3-2020.02-Linux-x86_64.sh
