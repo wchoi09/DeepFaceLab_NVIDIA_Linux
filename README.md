@@ -66,7 +66,7 @@ conda activate deepfacelab
 ```  
 </details>
 
-<li><details><summary><a>on system:</b></summary>  
+<li><details><summary><b>on system:</b></summary>  
 Install python 3.6.8, cudnn 7.6.5, cudatoolkit 10.0.130  
     <ol type="a">
         <li><details><summary><b>CentOS:</b></summary>  
