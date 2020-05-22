@@ -54,9 +54,8 @@ Type "yes" to the prompt, "Do you wish the installer to initialize Anaconda3 by 
 Close and open your terminal window for the installation to take effect, or you can enter the command:  
 ```sh
 source ~/.bashrc
-```
-Create the DeepFaceLab environment with the following libraries.  
-Enter the following in the terminal:  
+```  
+Create the DeepFaceLab environment with the following libraries in the terminal:  
 ```bash
 conda create -n deepfacelab -c main python=3.6.8 cudnn=7.6.5 cudatoolkit=10.0.130
 ```
@@ -64,27 +63,25 @@ conda create -n deepfacelab -c main python=3.6.8 cudnn=7.6.5 cudatoolkit=10.0.13
 Activate the environment  
 ```bash
 conda activate deepfacelab
-```
+```  
 </details>
 
 <li><details><summary><b>on system:</b></summary>  
-      
-Install python, cudnn, cudatoolkit  
+Install python 3.6.8, cudnn 7.6.5, cudatoolkit 10.0.130  
 </ol></details>
 
 ## Step #2: Install DeepFaceLab_NVIDIA
 Install Python Dependencies
 ```sh
 python3 -m pip install -r ./DeepFaceLab/requirements-cuda.txt  
-```
+```  
 
 Delete the already existing DeepFaceLab directory, and  
 Clone DeepFaceLab from the main repository to the `_internal` directory  
 ```sh
 sudo rm -rf DeepFaceLab
 git clone https://github.com/iperov/DeepFaceLab.git
-```
-
+```  
 
 ## Step #3: Download CelebA Dataset and Quick96 Model
 
