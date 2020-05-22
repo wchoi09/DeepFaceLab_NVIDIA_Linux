@@ -2,6 +2,8 @@
 **Note:** This installation method uses Anaconda to install DFL on Centos 7/8 or Ubuntu 18.04  
 To install CentOS, refer [here](install_CentOS.md)
 
+**Prerequisite:** You need CUDA enabled GPU.
+
 **Note:** The directory structure is important.  
 This is how the project tree will look like:  
 ```bash
