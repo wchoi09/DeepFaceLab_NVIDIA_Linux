@@ -68,15 +68,16 @@ conda activate deepfacelab
 
 <li><details><summary><b>on system:</b></summary>  
 Install python 3.6.8, cudnn 7.6.5, cudatoolkit 10.0.130  
-</ol></details>
+</ol></details>  
 
-## Step #2: Install DeepFaceLab_NVIDIA
 Install Python Dependencies
 ```sh
 python3 -m pip install -r ./DeepFaceLab/requirements-cuda.txt  
 ```  
 
-Delete the already existing DeepFaceLab directory, and  
+## Step #2: Install [or Update] DeepFaceLab
+
+Delete the already existing DeepFaceLab directory from the `_internal` directory, and  
 Clone DeepFaceLab from the main repository to the `_internal` directory  
 ```sh
 sudo rm -rf DeepFaceLab
