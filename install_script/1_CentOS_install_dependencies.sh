@@ -15,8 +15,7 @@ sudo dnf -y update
 sudo dnf -y install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
 
 # Install DeepFaceLab Dependencies
-sudo dnf -y install ffmpeg ffmpeg-devel gcc gcc-c++ kernel-devel
+sudo dnf -y install ffmpeg ffmpeg-devel gcc gcc-c++ kernel-devel git
 # sudo dnf -y groupinstall "Development Tools"
-sudo dnf -y install git
 
 # Install the latest NVIDIA Driver (Long Lived Branch)
