@@ -26,7 +26,7 @@ git clone https://github.com/jwchoi09/DeepFaceLab_NVIDIA_Linux.git
 cd DeepFaceLab_NVIDIA_Linux
 ```
 
-### Step #0-1: Install NVIDIA driver and Dependencies
+Install NVIDIA driver and Dependencies  
 Navigate to <b>`DeepFaceLab_NVIDIA_Linux/install_script`</b> directory and run:
 <ol type="a">
     <li><b>CentOS:</b><pre>bash 1_CentOS_install_dependencies.sh</pre>  
