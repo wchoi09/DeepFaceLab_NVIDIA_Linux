@@ -77,8 +77,8 @@ python3 -m pip install -r ./DeepFaceLab/requirements-cuda.txt
 
 ## Step #2: Install [or Update] DeepFaceLab
 
-Delete the already existing DeepFaceLab directory from the `_internal` directory, and  
-Clone DeepFaceLab from the main repository to the `_internal` directory  
+This step involves deleting the already existing DeepFaceLab directory from the `_internal` directory, and  
+cloning DeepFaceLab from the main repository to the `_internal` directory  
 ```sh
 sudo rm -rf DeepFaceLab
 git clone https://github.com/iperov/DeepFaceLab.git
