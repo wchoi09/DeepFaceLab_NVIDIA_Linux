@@ -35,7 +35,7 @@ Navigate to <b>`DeepFaceLab_NVIDIA_Linux/install_script`</b> directory and run:
 
 ## Step #1: Setup Environment  
 <ol type="a">
-    <li><details><summary><b>on Anaconda:</b></summary>  
+    <li><details><summary><b>on Anaconda:</b> (recommended)</summary>  
           Install Anaconda  
           
 URL #4: https://www.anaconda.com/distribution/#linux  
