@@ -33,6 +33,39 @@ Navigate to <b>`DeepFaceLab_NVIDIA_Linux/install_script`</b> directory and run:
     <li><b>Ubuntu:</b><pre>bash 1_Ubuntu_install_dependencies.sh</pre>
 </ol>
 
+## Step #1: Install DFL
+<ol type="a">
+    <li><b>on Anaconda:</b>
+        URL #4: https://www.anaconda.com/distribution/#linux  
+URL #5: https://docs.anaconda.com/anaconda/install/linux/
+
+**Note:** Download Python 3.7 version (at the time of writing: 03/16/2020)  
+Through the terminal, locate to Anaconda download destination and run the following:  
+```sh
+bash Anaconda3-2020.02-Linux-x86_64.sh
+```
+
+The installer prompts "In order to continue the installation process, please review the license agreement."  
+Click Enter to view license terms.  
+Scroll to the bottom of the license terms and enter "Yes" to agree.  
+Accept the default install location.  
+Type "yes" to the prompt, "Do you wish the installer to initialize Anaconda3 by running conda init?"  
+Close and open your terminal window for the installation to take effect, or you can enter the command:  
+```sh
+source ~/.bashrc
+```
+    <li><b>on system:</b>
+</ol>
+
+
+
+
+
+
+
+
+
+
 
 ## Step #1: Install Anaconda
 URL #4: https://www.anaconda.com/distribution/#linux  
