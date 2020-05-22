@@ -37,8 +37,9 @@ Navigate to <b>`DeepFaceLab_NVIDIA_Linux/install_script`</b> directory and run:
 <ol type="a">
     <li><b>on Anaconda:</b>  
         Install Anaconda  
-        URL #4: https://www.anaconda.com/distribution/#linux  
-URL #5: https://docs.anaconda.com/anaconda/install/linux/
+          
+URL #4: https://www.anaconda.com/distribution/#linux  
+URL #5: https://docs.anaconda.com/anaconda/install/linux/  
 
 **Note:** Download Python 3.7 version (at the time of writing: 03/16/2020)  
 Through the terminal, locate to Anaconda download destination and run the following:  
@@ -55,7 +56,6 @@ Close and open your terminal window for the installation to take effect, or you 
 ```sh
 source ~/.bashrc
 ```
-Create Anaconda Environment  
 Create the DeepFaceLab environment with the following libraries.  
 Enter the following in the terminal:  
 ```bash
