@@ -66,10 +66,10 @@ Activate the environment
 ```bash
 conda activate deepfacelab
 ```
-<li><b>on system:</b>  
+<details><li><b>on system:</b>  
       
 Install python, cudnn, cudatoolkit  
-</ol>
+</ol></details>
 
 Install Python Dependencies
 ```sh
